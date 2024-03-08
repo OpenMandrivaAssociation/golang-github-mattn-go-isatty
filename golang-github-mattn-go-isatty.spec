@@ -17,6 +17,7 @@ URL:		https://github.com/mattn/go-isatty
 License:	MIT
 Group:		Development/Other
 BuildRequires:	compiler(go-compiler)
+BuildRequires:	golang(golang.org/x/sys/unix)
 BuildArch:	noarch
 
 %description
